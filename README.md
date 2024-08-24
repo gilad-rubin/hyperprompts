@@ -4,7 +4,7 @@
 </picture></div>
 
 
-**`hyperprompt`** is a lightweight Python package designed for creating dynamic and customizable text templates using Pythonic logic. 
+**`hyperprompts`** is a lightweight Python package designed for creating dynamic and customizable text templates using Pythonic logic. 
 
 With hyperprompt, you define meta-prompts using pure Python, compile them with configuration inputs to produce templates with placeholders, and then compile these templates with actual data to generate the final output.
 
@@ -13,7 +13,7 @@ With hyperprompt, you define meta-prompts using pure Python, compile them with c
 Install hyperprompt using pip:
 
 ```bash
-pip install hyperprompt
+pip install hyperprompts
 ```
 
 ## Features
@@ -24,7 +24,7 @@ pip install hyperprompt
 ## Usage Example
 ### Defining the Meta-Prompt
 ```python
-from hyperprompt import hyperprompt
+from hyperprompts import hyperprompt
 
 # Step One: Define the meta-prompt
 @hyperprompt
